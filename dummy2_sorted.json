@@ -1,0 +1,18 @@
+{
+  "a": [
+    0
+   ,3
+   ,91
+   ,"100"
+   ,"a"
+  ]
+ ,"dddd": {
+    "9": "aaa"
+   ,"bbb": true
+   ,"www": [
+      "example.com"
+     ,"google.com"
+     ,"zzzzzz.com"
+    ]
+  }
+}

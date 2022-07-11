@@ -1,0 +1,19 @@
+
+json_sort
+═════════════
+deep-sort JSON files.
+handles plain text files too.
+═════════════════════════════════
+uses natural sort, and writes new files 
+with '_sorted' add to file-name (same extension).
+═════════════════════════════════════════════════════
+ "file" "file"..    	read, sort (natural), write new file. on errors, skip.
+ --unique           	remove duplicates (lines in text/values in arrays).
+ --no-beautify      	json output will not be beautified.
+ --eol-win          	force \r\n (CR+LF) everywhere, instead of your OS defaults.
+ --eol-linux        	force   \n    (LF) everywhere, instead of your OS defaults.
+ --help             	show this help.
+ --verbose          	show some debug information (written to STDERR).
+════════════════════════════════════════════════════════════════
+                                               EladKarako 2022.
+
